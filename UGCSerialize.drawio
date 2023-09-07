@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T09:36:03.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.1.1" etag="khPTQ1yNDAexR9uAlAY0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T09:49:52.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dQQMuyWnXvsfo9x0XWVZ" version="21.1.1" type="github">
   <diagram name="第 1 页" id="_707NUr_EEWpwsgA2Oic">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-1" value="TPS" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-2" value="UPS" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-3" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-4" value="PropertyTag" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-3">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-5" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-3">
+          <mxGeometry x="130" y="3.5" width="117" height="63.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-6" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="535" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-7" value="FUnversionedHeader" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-6">
+          <mxGeometry width="155.63636363636365" height="67.74037464574549" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-8" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-6">
+          <mxGeometry x="160.5" y="9.03366281882906" width="92.4090909090909" height="49.83756134651275" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-21" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-6">
+          <mxGeometry x="252.90909090909093" y="9.03366281882906" width="92.4090909090909" height="49.83756134651275" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-22" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-6">
+          <mxGeometry x="345.3181818181818" y="8.951406649616368" width="92.4090909090909" height="49.83756134651275" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-23" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-6">
+          <mxGeometry x="437.72727272727275" y="8.951406649616368" width="92.4090909090909" height="49.83756134651275" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-10" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-11" value="PropertyTag" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-10">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-12" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-10">
+          <mxGeometry x="130" y="3.5" width="117" height="63.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-24" value="KiliSerilize" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-25" value="" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-26" value="PropertyLocalID" style="html=1;shape=mxgraph.er.anchor;whiteSpace=wrap;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-25">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-27" value="PropertyValue" style="rounded=1;absoluteArcSize=1;html=1;arcSize=10;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-25">
+          <mxGeometry x="130" y="3.5" width="117" height="63.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-41" value="PropertyTag" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="210" width="275" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-42" value="&amp;nbsp;FName	Type&lt;br&gt;	uint8	BoolVal&amp;nbsp;=&amp;nbsp;0&lt;br&gt;	FName	Name;		&lt;br&gt;	FName	StructName&lt;br&gt;	FName	EnumName&lt;br&gt;	FName	InnerType&lt;br&gt;	FName	ValueType&lt;br&gt;	int32	Size&lt;br&gt;	int32	ArrayIndex&lt;br&gt;	int64	SizeOffset&lt;br&gt;	FGuid	StructGuid&lt;br&gt;	uint8	HasPropertyGuid&lt;br&gt;	FGuid	PropertyGuid" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="e5rsON1Ld-tONtPhFwlM-41">
+          <mxGeometry y="50" width="275" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
