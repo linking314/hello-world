@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T07:23:47.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DrNVTkfRUnWhcJGeg3l7" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T07:29:05.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lEOYPNuPLT_m_-_GkNcL" version="21.1.1" type="github">
   <diagram name="第 1 页" id="_707NUr_EEWpwsgA2Oic">
-    <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="300000" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="300000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -292,6 +292,61 @@
             <mxPoint x="1650" y="990" as="sourcePoint" />
             <mxPoint x="1650" y="1020" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-154" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ConstrunctTagContainer&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1110" width="310" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="LoadOldTagContainer" treeRoot="1" id="e5rsON1Ld-tONtPhFwlM-155">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="420" y="1260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-156" value="PropertyIterator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1270" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-157" value="ContainProperty" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1340" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-160" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#33001A;rounded=0;" edge="1" parent="1" source="e5rsON1Ld-tONtPhFwlM-157">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="630" y="1440" as="targetPoint" />
+            <mxPoint x="850" y="850" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="AddUniqueTag" treeRoot="1" id="e5rsON1Ld-tONtPhFwlM-161">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="570" y="1440" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-162" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#33001A;rounded=0;" edge="1" parent="1" source="e5rsON1Ld-tONtPhFwlM-157">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="750" y="1370" as="targetPoint" />
+            <mxPoint x="640" y="1410" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-163" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e5rsON1Ld-tONtPhFwlM-155">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="530" y="1290" as="sourcePoint" />
+            <mxPoint x="570" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Continue" treeRoot="1" id="e5rsON1Ld-tONtPhFwlM-165">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+            <mxGeometry x="750" y="1340" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="e5rsON1Ld-tONtPhFwlM-166" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="690" y="1470" as="sourcePoint" />
+            <mxPoint x="700" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="1470" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
